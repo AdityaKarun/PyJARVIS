@@ -32,6 +32,7 @@ PyJARVIS is a Python-based voice assistant that helps you with daily tasks, prov
 1. Clone the repository:
    ```bash
    git clone https://github.com/AdityaKarun/PyJARVIS.git
+   cd PyJARVIS
    ```
 
 2. Install required packages:
@@ -104,3 +105,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Inspired by Iron Man's JARVIS
 - Uses various open-source libraries and APIs
+
