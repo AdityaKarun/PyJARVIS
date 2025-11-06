@@ -51,7 +51,7 @@ if __name__ == "__main__":
         elif "news" in command or "headlines" in command or "worldwide" in command:
             headlines = get_news()
             speak("Here are the top headlines:")
-            for line in headlines.split('\n'):
+            for line in headlines:
                 speak(line)
 
         elif "weather" in command or "sky" in command or "conditions" in command:
@@ -71,3 +71,4 @@ if __name__ == "__main__":
             youtube_content = command.replace("play", "").replace("on", "").replace("youtube", "").strip()
             speak(f"Playing {youtube_content} on YouTube")
             youtube_player(youtube_content)
+
